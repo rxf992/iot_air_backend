@@ -83,12 +83,12 @@ def get_mail_code():
 def mail(mail_receiver, code):
     # code = mail_code()
     print("本次的验证码 :", code)
-    mail_user_qq = "298075965@qq.com"  # 用户名
-    mail_user = "raoxuefeng@yeah.net"
-    mail_pass_qq = "yjqvqzldjucnbiea"  # 298075965@qq.com发件人邮箱授权码
-    mail_pass = "INVFAXGETMFQSZQO" # raoxuefeng@yeah.net
-    mail_sender_qq = "298075965@qq.com"  # 发送方
-    mail_sender = "raoxuefeng@yeah.net"
+    mail_user_qq = "xxxx@qq.com"  # 用户名
+    mail_user = "xxx@bbbb"
+    mail_pass_qq = ""  #qq发件人邮箱授权码
+    mail_pass = "" # raoxuefeng@yeah.net
+    mail_sender_qq = "xxxx@qq.com"  # 发送方
+    mail_sender = "xxx@bbbb"
     mail_receiver = mail_receiver  # 接收方
     email_content = "本次登录的验证码是：%s" % code  # 正文
     email_title = "[验证码]户外环境监测可视化平台"  # 标题
